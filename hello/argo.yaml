@@ -5,14 +5,13 @@ metadata:
   namespace: argocd
 spec:
   project: default
-  source: 
-    repoURL: https://github.com/otmallah/argoCD.git
-    targetRevision: HEAD
-    path: hello
   destination:
-    server: https://kubernetes.default.svc
+    server: 'https://kubernetes.default.svc'
     namespace: dev
-  
+  source: 
+    repoURL: 'https://github.com/otmallah/argoCD.git'
+    targetRevision: main
+    path: ./hello/
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
