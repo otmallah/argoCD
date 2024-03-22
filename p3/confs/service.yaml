@@ -6,6 +6,10 @@ metadata:
 spec:
   selector:
     app: myapp
+    
   ports:
-  - port: 3001
+  - name: dev
+    nodePort: 30001
+    port: 80
     targetPort: 3000
+  type: NodePort
