@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: othmanmallah/web-app
+        image: wil42/playground
         ports:
         - containerPort: 3000
