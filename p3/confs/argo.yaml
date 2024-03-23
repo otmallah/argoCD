@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
     namespace: dev
   source: 
-    repoURL: 'https://github.com/otmallah/argoCD.git'
+    repoURL: 'git@github.com:otmallah/emallah-ception.git'
     targetRevision: main
     path: ./p3/confs/
   syncPolicy:
