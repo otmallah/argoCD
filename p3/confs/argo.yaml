@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
     namespace: dev
   source: 
-    repoURL: 'git@github.com:otmallah/emallah-ception.git'
+    repoURL: 'https://github.com/otmallah/emallah-ception.git'
     targetRevision: main
     path: ./p3/confs/
   syncPolicy:
